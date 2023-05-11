@@ -11,3 +11,7 @@ K6_BROWSER_ENABLED=true k6 run script.js
 
 Or set environment variable K6_BROWSER_ENABLED=true
 and run the script via terminal: k6 run script.js
+
+Test Application used:
+UI: https://automationintesting.online/
+API: https://www.postman.com/automation-in-testing/workspace/restful-booker-collections/request/92957-ee4f92f6-3f02-4476-a729-5007ed013648
