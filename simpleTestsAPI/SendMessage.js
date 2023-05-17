@@ -14,6 +14,10 @@ export const options = {
     },
 };
 
+export function setup() {
+    console.log("Hello world! I'm gonna start the test now!");
+}
+
 export default function () {
 
     var headerParams = {
@@ -42,4 +46,8 @@ export default function () {
     );
 
     sleep(1);
+}
+
+export function teardown() {
+    console.log("Testing ended :(((((((((((((");
 }
